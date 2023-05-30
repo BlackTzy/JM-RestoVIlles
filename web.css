@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald&display=swap');
+
+*{
+	margin:0;
+	padding:3px;
+	border:0;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	list-style-type:none;
+	text-decoration:none;
+}
+body{
+	background-image:url("bg.jpg");
+	background-size:90%;
+}
+/*navigation bar*/
+.navbar img{
+	width:55px;
+	height:55px;
+	position:absolute;
+}
+.container{
+
+}
+
+
+.navbar h1{
+	
+	line-height: 150px;
+	margin-left:10%;
+	position:absolute;
+	color:rgb(6, 41, 82);
+	font-weight:bolder;
+	font-family: 'Kanit', sans-serif;
+	font-size: 55px;
+	padding-left: 5%;
+}
+.navbar .dropdown li {
+	float:right;
+	margin-left: 1.5%;
+	font-size:20px;
+	line-height:30px;
+	background-color:transparent;
+	border-radius:20px;	
+	box-shadow: black 5px 5px 5px;
+	font-family: 'Kanit', sans-serif;
+}
+.navbar .dropdown li a{
+	display:rgb(6, 41, 82);
+	color:rgb(6, 41, 82);
+	padding:5px 12px;
+	font-weight:bold;
+	font-family: 'Oswald', sans-serif;
+}
+/*body content*/
+.todays h1{
+	color:rgb(6, 41, 82);
+	font-style: normal;
+	text-align:center;
+	font-size:xx-large;
+	font-weight:bolder;
+	margin-top:75px;
+	display:block;
+	padding:15px;
+	border-radius:20px;
+	box-shadow: black 5px 5px 5px;
+}
+.sec{
+	padding: 10px 5%;
+}
+.product{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(320px, 1fr));	
+}
+.product .card{
+	width:268px;
+	height:200px;
+	background:rgb(6, 41, 82);
+	box-shadow:black 5px 5px 5px;
+	border-radius:15px;
+	padding: 5px;
+	margin-bottom:15px;
+	padding-bottom:15px;
+	background-image:url("Bg4.jpeg");
+}
+.product .card .image img{
+	height: 90px;px;
+	width:250px;
+	border-radius:10px;
+	padding:10px;
+}
+.product .card .title{
+	color:white;
+	font-family:monsterrat;
+	padding-left:10px;
+	font-size:18px;
+	font-weight:light;
+	font-style:normal
+}
+.product .card .box{
+	display:flex;
+	justify-content:space-between;
+	padding:12px;
+}
+.product .card .box .price{
+	color:rgb(2, 74, 102) ;
+	font-weight:bolder;
+	font-size:18px;
+	opacity:inherit;
+	font-style:normal;
+	text-decoration:underline;
+}
+.product .card .box .btn{
+	font-family:monsterrat;
+	padding:15px;
+	border-radius:20px;
+	background-color:rgb(141, 187, 240);
+	text-transform:uppercase;
+	font-style:normal;
+	box-shadow: black 5px 5px 5px;
+}
+/*footer*/
+footer p{
+	color:rgb(133, 191, 235);
+	text-align:center;
+	font: size 21px;px;
+}
+.mainbanner {
+    width: 100%;
+    height: 1080px;
+background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar img{
+	height: 150px;
+	width: 150px;
+}
